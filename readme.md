@@ -9,7 +9,7 @@ Para poder correr el proyecto, vas a tener que seguir los siguientes pasos (para
 
 1. Clonar el repositorio del repositorio
 ```
-git clone https://github.com/broko-de/cac-movies-flask.git
+git clone https://github.com/alejant/24266_cac_movies_api.git
 ```
 2. Crear un entorno virtual para el proyecto y activarlo o usar el existente
 ```
