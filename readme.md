@@ -1,6 +1,6 @@
 # Proyecto cac-movies-flask
 
-Este es un proyecto de software desarrollado en python 🐍 por medio del framework Flask, con la finalidad de implementar el backend del proyecto cac-movies. Se trabaja con una entidad Movies y una conexión a una base de datos Mysql.
+Este es un proyecto de software desarrollado en python 🐍 por medio del framework Flask, con la finalidad de implementar el backend del proyecto cac_movies. Se trabaja con una entidad Movies y una conexión a una base de datos Postgresql.
 
 El proyecto requiere la implementación de un entorno virtual de python y trabaja con variables de entorno para la manipulación de las credencias de conexión con la base de datos.
 
