@@ -30,7 +30,11 @@ class Movie:
         cursor = db.cursor()
         cursor.execute("SELECT * FROM movies")
         rows = cursor.fetchall()
-        movies = [Movie(id_movie=row[0], title=row[1], director=row[2], release_date=row[3], banner=row[4]) for row in rows]
+        movies = []
+        for row in rows:
+            movies.append(Movie(id_movie=row[0], title=row[1], director=row[2], release_date=row[3], banner=row[4]))
+
+        #movies = [Movie(id_movie=row[0], title=row[1], director=row[2], release_date=row[3], banner=row[4]) for row in rows]
         cursor.close()
         return movies
 
